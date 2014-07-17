@@ -1,0 +1,931 @@
+
+IBM(R) Linker for OS/2(R), Version 5.0 
+Copyright (C) IBM Corporation 1988, 2003.
+Copyright (C) Microsoft Corp. 1988, 1989.
+All rights reserved.
+
+Current option settings:
+	EXEC	CODE:RX	DATA:RW
+	Alignfile:0x00000010	ALIGNAddr:0x00010000	BASE:0x00010000
+	NOBRowse	NODBgpack	NODEbug:none	DEFaultlibrarysearch
+	NOEXEPACK	NOEXTdictionary	FIxed	NOFReeformat	NOIGnorecase
+	NOLinenumbers	NOLOgo	MAP:sfconvert.map	OCache:0x02000000
+	NOOLDcpp	NOOPTFunc	PACKCode:0xffffffff
+	PACKData:0xffffffff	PMTYPE:VIO	SEGMENTS:256 	SEGOrder
+	STACK:0x00100000	NOSTRictwarnings	NONOSTRictwarnings
+	STUB:U:\USR\BIN\os2stub.bin	NOVERBose	VERSION:00.00
+
+
+
+ SFCONVERT
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001FF40H TEXT32                 CODE 32-bit
+	at offset 00000000 00040H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+	at offset 00000040 00010H bytes from U:\usr\lib\binmode.obj ({standard input})
+	at offset 00000050 00C40H bytes from U:\tmp\ldconv_sfconvert_o_28564d433bc01dd6f8.obj (ldconv_sfconvert_o_28564d433bc01dd6f8.obj)
+	at offset 00000C90 006E0H bytes from U:\tmp\ldconv_printinfo_o_28564d433bc01e5010.obj (ldconv_printinfo_o_28564d433bc01e5010.obj)
+	at offset 00001370 01160H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (openclose.obj)
+	at offset 000024D0 015C0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (setup.obj)
+	at offset 00003A90 00950H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (format.obj)
+	at offset 000043E0 00660H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (data.obj)
+	at offset 00004A40 00160H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (compression.obj)
+	at offset 00004BA0 007C0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (misc.obj)
+	at offset 00005360 00BC0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (query.obj)
+	at offset 00005F20 00100H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (error.obj)
+	at offset 00006020 00380H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (af_vfs.obj)
+	at offset 000063A0 00EE0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (util.obj)
+	at offset 00007280 003B0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (aupv.obj)
+	at offset 00007630 00340H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (units.obj)
+	at offset 00007970 00700H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (instrument.obj)
+	at offset 00008070 00860H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (marker.obj)
+	at offset 000088D0 07080H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (modules.obj)
+	at offset 0000F950 00270H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (pcm.obj)
+	at offset 0000FBC0 00090H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (byteorder.obj)
+	at offset 0000FC50 00540H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (raw.obj)
+	at offset 00010190 01820H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (aiff.obj)
+	at offset 000119B0 01740H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (aiffwrite.obj)
+	at offset 000130F0 00840H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (next.obj)
+	at offset 00013930 006C0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (nextwrite.obj)
+	at offset 00013FF0 01FC0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (wave.obj)
+	at offset 00015FB0 010C0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (wavewrite.obj)
+	at offset 00017070 00A00H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (ircam.obj)
+	at offset 00017A70 001D0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (ircamwrite.obj)
+	at offset 00017C40 00900H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (avr.obj)
+	at offset 00018540 003D0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (avrwrite.obj)
+	at offset 00018910 00920H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (iff.obj)
+	at offset 00019230 00700H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (iffwrite.obj)
+	at offset 00019930 00F80H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (nist.obj)
+	at offset 0001A8B0 00440H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (nistwrite.obj)
+	at offset 0001ACF0 009A0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (g711.obj)
+	at offset 0001B690 00700H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (ima.obj)
+	at offset 0001BD90 00C00H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (msadpcm.obj)
+	at offset 0001C990 00700H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (pcm.obj)
+	at offset 0001D090 01330H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (rebuffer.obj)
+	at offset 0001E3C0 010C0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (loop.obj)
+	at offset 0001F480 00180H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (track.obj)
+	at offset 0001F600 002B0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (extended.obj)
+	at offset 0001F8B0 00180H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (g711.obj)
+	at offset 0001FA30 00420H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (adpcm.obj)
+	at offset 0001FE50 00030H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (__main.obj)
+	at offset 0001FE80 000C0H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (emx-ctordtor.obj)
+
+ 0001:0001FF40 000000000H ________TEXT           CODE 32-bit
+
+ 0002:00000000 000100000H STACK                  STACK 32-bit
+
+ 0003:00000000 000002120H DATA32                 DATA 32-bit
+	at offset 00000000 00048H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+	at offset 00000050 000E0H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (setup.obj)
+	at offset 00000130 00008H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (error.obj)
+	at offset 00000140 00620H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (units.obj)
+	at offset 00000760 01140H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (modules.obj)
+	at offset 000018A0 00180H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (pcm.obj)
+	at offset 00001A20 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (raw.obj)
+	at offset 00001A60 00100H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (aiff.obj)
+	at offset 00001B60 00060H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (next.obj)
+	at offset 00001BC0 00100H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (wave.obj)
+	at offset 00001CC0 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (ircam.obj)
+	at offset 00001D00 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (avr.obj)
+	at offset 00001D40 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (iff.obj)
+	at offset 00001D80 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (nist.obj)
+	at offset 00001DC0 00080H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (g711.obj)
+	at offset 00001E40 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (ima.obj)
+	at offset 00001E80 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (msadpcm.obj)
+	at offset 00001EC0 00040H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (pcm.obj)
+	at offset 00001F00 00100H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (rebuffer.obj)
+	at offset 00002000 00120H bytes from U:\tmp\ldconv_audiofile_a_28564d433bc01ec928.lib (g711.obj)
+
+ 0003:00002120 000000004H SET1__os2dll           DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002124 000000000H SET2__os2dll           DATA 32-bit
+
+ 0003:00002124 000000004H SET3__os2dll           DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002128 000000004H SET1___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:0000212C 000000004H SET2___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\binmode.obj ({standard input})
+
+ 0003:00002130 000000004H SET3___CTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002134 000000004H SET1___DTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002138 000000000H SET2___DTOR_LIST__     DATA 32-bit
+
+ 0003:00002138 000000004H SET3___DTOR_LIST__     DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:0000213C 000000004H SET1___crtinit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002140 000000000H SET2___crtinit1__      DATA 32-bit
+
+ 0003:00002140 000000004H SET3___crtinit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002144 000000004H SET1___crtexit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002148 000000000H SET2___crtexit1__      DATA 32-bit
+
+ 0003:00002148 000000004H SET3___crtexit1__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:0000214C 000000004H SET1___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002150 000000000H SET2___eh_frame__      DATA 32-bit
+
+ 0003:00002150 000000004H SET3___eh_frame__      DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002154 000000004H SET1___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002158 000000000H SET2___eh_init__       DATA 32-bit
+
+ 0003:00002158 000000004H SET3___eh_init__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:0000215C 000000004H SET1___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002160 000000000H SET2___eh_term__       DATA 32-bit
+
+ 0003:00002160 000000004H SET3___eh_term__       DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002164 000000004H SET1___fork_parent1__  DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002168 000000000H SET2___fork_parent1__  DATA 32-bit
+
+ 0003:00002168 000000004H SET3___fork_parent1__  DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:0000216C 000000004H SET1___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002170 000000004H SET2___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (emx-ctordtor.obj)
+
+ 0003:00002174 000000004H SET3___fork_child1__   DATA 32-bit
+	at offset 00000000 00004H bytes from U:\usr\lib\crt0wild.obj ({standard input})
+
+ 0003:00002180 000000000H ________DATA           DATA 32-bit
+
+ 0003:00002180 000000020H BSS32                  BSS 32-bit
+	at offset 00000000 00010H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (__main.obj)
+	at offset 00000010 00010H bytes from U:\usr\lib\gcc-lib\i386-pc-os2-emx\3.3.5\libgcc_so_d.lib (emx-ctordtor.obj)
+
+ 0003:000021A0 000000000H c_common               BSS 32-bit
+
+ 0003:000021A0 000000000H ________BSS            BSS 32-bit
+
+
+ Origin   Group
+ 0000:0   FLAT
+ 0001:0   CGROUP
+ 0003:0   DGROUP
+
+
+ Address         Publics by Name
+ 0001:00000170       main
+ 0000:00000000  Abs  WEAK$ZERO
+ 0001:00002460       _afCloseFile
+ 0001:00003550       _afFreeFileSetup
+ 0001:00003ED0       _afGetByteOrder
+ 0001:00004030       _afGetChannels
+ 0001:00004AB0       _afGetCompression
+ 0001:00003A90       _afGetDataOffset
+ 0001:00004150       _afGetFileFormat
+ 0001:00003F70       _afGetFrameCount
+ 0001:00003B40       _afGetFrameSize
+ 0001:00007E60       _afGetInstIDs
+ 0001:00007F80       _afGetInstParamLong
+ 0001:00007F50       _afGetInstParams
+ 0001:0001E960       _afGetLoopCount
+ 0001:0001F110       _afGetLoopEnd
+ 0001:0001F370       _afGetLoopEndFrame
+ 0001:0001E4B0       _afGetLoopIDs
+ 0001:0001E740       _afGetLoopMode
+ 0001:0001EB20       _afGetLoopStart
+ 0001:0001ED70       _afGetLoopStartFrame
+ 0001:0001EF50       _afGetLoopTrack
+ 0001:000085A0       _afGetMarkComment
+ 0001:00008750       _afGetMarkIDs
+ 0001:000084F0       _afGetMarkName
+ 0001:000087D0       _afGetMarkPosition
+ 0001:00004C50       _afGetMiscIDs
+ 0001:00004EC0       _afGetMiscSize
+ 0001:00004D80       _afGetMiscType
+ 0001:0000FAC0       _afGetPCMMapping
+ 0001:00004000       _afGetRate
+ 0001:00004060       _afGetSampleFormat
+ 0001:00003AF0       _afGetTrackBytes
+ 0001:0001F5E0       _afGetTrackIDs
+ 0001:00003F20       _afGetVirtualByteOrder
+ 0001:000043B0       _afGetVirtualChannels
+ 0001:00003BB0       _afGetVirtualFrameSize
+ 0001:0000FB40       _afGetVirtualPCMMapping
+ 0001:00004230       _afGetVirtualRate
+ 0001:000040A0       _afGetVirtualSampleFormat
+ 0001:00002190       _afIdentifyFD
+ 0001:00002280       _afIdentifyNamedFD
+ 0001:00003820       _afInitByteOrder
+ 0001:00003720       _afInitChannels
+ 0001:00004B00       _afInitCompression
+ 0001:00003960       _afInitDataOffset
+ 0001:00003670       _afInitFileFormat
+ 0001:00003A00       _afInitFrameCount
+ 0001:00007DD0       _afInitInstIDs
+ 0001:0001E3D0       _afInitLoopIDs
+ 0001:00008350       _afInitMarkComment
+ 0001:00008080       _afInitMarkIDs
+ 0001:00008220       _afInitMarkName
+ 0001:00004BA0       _afInitMiscIDs
+ 0001:00004E10       _afInitMiscSize
+ 0001:00004CD0       _afInitMiscType
+ 0001:0000F950       _afInitPCMMapping
+ 0001:000038C0       _afInitRate
+ 0001:000037A0       _afInitSampleFormat
+ 0001:0001F5D0       _afInitTrackIDs
+ 0001:000030F0       _afNewFileSetup
+ 0001:000013C0       _afOpenFD
+ 0001:00001590       _afOpenFile
+ 0001:000014B0       _afOpenNamedFD
+ 0001:000023A0       _afOpenVirtualFile
+ 0001:00005A50       _afQuery
+ 0001:00005CA0       _afQueryDouble
+ 0001:00005C10       _afQueryLong
+ 0001:00005D20       _afQueryPointer
+ 0001:00004650       _afReadFrames
+ 0001:00005100       _afReadMisc
+ 0001:00003C20       _afSeekFrame
+ 0001:00005280       _afSeekMisc
+ 0001:00004310       _afSetChannelMatrix
+ 0001:00005F70       _afSetErrorHandler
+ 0001:00007EC0       _afSetInstParamLong
+ 0001:00007EB0       _afSetInstParams
+ 0001:0001E840       _afSetLoopCount
+ 0001:0001F030       _afSetLoopEnd
+ 0001:0001F230       _afSetLoopEndFrame
+ 0001:0001E620       _afSetLoopMode
+ 0001:0001EA40       _afSetLoopStart
+ 0001:0001EC30       _afSetLoopStartFrame
+ 0001:0001EE70       _afSetLoopTrack
+ 0001:00008660       _afSetMarkPosition
+ 0001:0000FA40       _afSetTrackPCMMapping
+ 0001:00003E40       _afSetVirtualByteOrder
+ 0001:000041B0       _afSetVirtualChannels
+ 0001:0000F9C0       _afSetVirtualPCMMapping
+ 0001:00004280       _afSetVirtualRate
+ 0001:000040E0       _afSetVirtualSampleFormat
+ 0001:00001C70       _afSyncFile
+ 0001:00003D80       _afTellFrame
+ 0001:00004410       _afWriteFrames
+ 0001:00004F90       _afWriteMisc
+ 0001:00006120       _af_fclose
+ 0001:00006150       _af_flength
+ 0001:00006060       _af_fread
+ 0001:00006170       _af_fseek
+ 0001:000061C0       _af_ftell
+ 0001:000060C0       _af_fwrite
+ 0001:000070B0       _af_read_uint16_be
+ 0001:00007100       _af_read_uint16_le
+ 0001:00007010       _af_read_uint32_be
+ 0001:00007060       _af_read_uint32_le
+ 0001:00006040       _af_virtual_file_destroy
+ 0001:00006020       _af_virtual_file_new
+ 0001:000061E0       _af_virtual_file_new_for_file
+ 0001:000071E0       _af_write_uint16_be
+ 0001:00007230       _af_write_uint16_le
+ 0001:00007150       _af_write_uint32_be
+ 0001:000071A0       _af_write_uint32_le
+ 0001:000073D0       _AUpvfree
+ 0001:000073B0       _AUpvgetmaxitems
+ 0001:000074E0       _AUpvgetparam
+ 0001:000075A0       _AUpvgetval
+ 0001:00007540       _AUpvgetvaltype
+ 0001:00007280       _AUpvnew
+ 0001:00007420       _AUpvsetparam
+ 0001:00007320       _AUpvsetval
+ 0001:00007480       _AUpvsetvaltype
+ 0001:00000B10       _copyaudiodata
+ 0001:00001290       _copyrightstring
+ 0003:00002180       _edata
+ 0003:000021A0       _end
+ 0001:0001FF40       _etext
+ 0001:00000170       _main
+ 0001:00000EA0       _printfileinfo
+ 0001:000009D0       _usageerror
+ 0001:00015FB0       _waveinfo_new
+ 0001:0001A990       _WriteNISTHeader
+ 0001:00009310       __AFfreemodspec
+ 0001:000096E0       __AFfreemodules
+ 0001:0001AE00       __AFg711initcompress
+ 0001:0001AE90       __AFg711initdecompress
+ 0001:000095C0       __AFinitmodules
+ 0001:000092D0       __AFnewmodinst
+ 0001:0001C9B0       __AFpcminitcompress
+ 0001:0001CA60       __AFpcminitdecompress
+ 0001:00009340       __AFpull
+ 0001:000093D0       __AFpush
+ 0001:00009400       __AFpushat
+ 0001:00005880       __afQueryCompression
+ 0001:00005380       __afQueryFileFormat
+ 0001:00005E10       __afQueryInstrument
+ 0001:000055F0       __afQueryInstrumentParameter
+ 0001:00005DB0       __afQueryLoop
+ 0001:00005EB0       __afQueryMarker
+ 0001:00005E80       __afQueryMiscellaneous
+ 0001:00008BF0       __AFsetupmodules
+ 0001:00009380       __AFsimplemodrun_pull
+ 0001:000094B0       __AFsimplemodrun_push
+ 0001:00009500       __AFsyncmodules
+ 0001:0001FBE0       __af_adpcm_coder
+ 0001:0001FD30       __af_adpcm_decoder
+ 0001:00010FE0       __af_aifc_get_version
+ 0001:00010F20       __af_aifc_recognize
+ 0003:00001B14       __af_aiffc_compression_types
+ 0001:00010B80       __af_aiff_complete_setup
+ 0003:00001B20       __af_aiff_default_filesetup
+ 0001:00010D90       __af_aiff_instparam_valid
+ 0003:00001A60       __af_aiff_inst_params
+ 0001:000102A0       __af_aiff_read_init
+ 0001:00010E60       __af_aiff_recognize
+ 0001:00011EB0       __af_aiff_update
+ 0001:000119E0       __af_aiff_write_init
+ 0001:0001F930       __af_alaw2linear
+ 0001:00018350       __af_avr_complete_setup
+ 0003:00001D00       __af_avr_default_filesetup
+ 0001:00017D20       __af_avr_read_init
+ 0001:000184B0       __af_avr_recognize
+ 0001:00018870       __af_avr_update
+ 0001:00018550       __af_avr_write_init
+ 0001:0000FC10       __af_byteswap_float32
+ 0001:0000FBC0       __af_byteswap_int16
+ 0001:0000FBE0       __af_byteswap_int32
+ 0001:00006960       __af_calloc
+ 0003:00000640       __af_compression
+ 0001:00004A70       __af_compression_index_from_id
+ 0001:0001F7A0       __af_convert_from_ieee_extended
+ 0001:0001F610       __af_convert_to_ieee_extended
+ 0003:00001A00       __af_default_double_pcm_mapping
+ 0003:00000050       __af_default_file_setup
+ 0003:000019E0       __af_default_float_pcm_mapping
+ 0003:0000007C       __af_default_instrumentsetup
+ 0003:000018A0       __af_default_signed_integer_pcm_mappings
+ 0003:00000090       __af_default_tracksetup
+ 0003:00001940       __af_default_unsigned_integer_pcm_mappings
+ 0001:00005F20       __af_error
+ 0001:000066A0       __af_filehandle_can_read
+ 0001:00006710       __af_filehandle_can_write
+ 0001:00006D30       __af_filehandle_get_track
+ 0001:00006770       __af_filehandle_ok
+ 0001:00002670       __af_filesetup_copy
+ 0001:00006CD0       __af_filesetup_get_tracksetup
+ 0001:00002B30       __af_filesetup_make_handle
+ 0001:00006620       __af_filesetup_ok
+ 0001:00006EF0       __af_format_frame_size
+ 0001:00006E90       __af_format_frame_size_uncompressed
+ 0001:00006DF0       __af_format_sample_size
+ 0001:00006D90       __af_format_sample_size_uncompressed
+ 0001:0001AD80       __af_g711_format_ok
+ 0001:00007D70       __af_handle_instrument_index_from_id
+ 0001:0001E590       __af_handle_loop_index_from_id
+ 0001:000020F0       __af_identify
+ 0001:00018FF0       __af_iff_complete_setup
+ 0003:00001D40       __af_iff_default_filesetup
+ 0001:00018940       __af_iff_read_init
+ 0001:00019170       __af_iff_recognize
+ 0001:00019440       __af_iff_update
+ 0001:00019240       __af_iff_write_init
+ 0001:0001B770       __af_ima_adpcm_format_ok
+ 0001:0001B830       __af_ima_adpcm_init_decompress
+ 0001:0001D180       __af_initfloatrebufferf2v
+ 0001:0001D0E0       __af_initfloatrebufferv2f
+ 0001:0001D2C0       __af_initint2rebufferf2v
+ 0001:0001D220       __af_initint2rebufferv2f
+ 0001:00007B40       __af_instparam_get
+ 0001:00007CE0       __af_instparam_index_from_id
+ 0001:00007970       __af_instparam_set
+ 0001:00003010       __af_instsetup_new
+ 0001:00017360       __af_ircam_complete_setup
+ 0003:00001CC0       __af_ircam_default_filesetup
+ 0001:00017078       __af_ircam_mips_magic
+ 0001:0001707C       __af_ircam_next_magic
+ 0001:00017620       __af_ircam_read_init
+ 0001:000179A0       __af_ircam_recognize
+ 0001:00017074       __af_ircam_sun_magic
+ 0001:00017C30       __af_ircam_update
+ 0001:00017070       __af_ircam_vax_magic
+ 0001:00017A70       __af_ircam_write_init
+ 0001:0001F8B0       __af_linear2alaw
+ 0001:0001F980       __af_linear2ulaw
+ 0001:00006810       __af_malloc
+ 0001:00008480       __af_marker_find_by_id
+ 0001:000088A0       __af_marker_new
+ 0001:0001C0A0       __af_ms_adpcm_format_ok
+ 0001:0001BE10       __af_ms_adpcm_init_decompress
+ 0001:000136C0       __af_next_complete_setup
+ 0003:00001B60       __af_next_compression_types
+ 0003:00001B80       __af_next_default_filesetup
+ 0001:00013110       __af_next_read_init
+ 0001:000138A0       __af_next_recognize
+ 0001:00013940       __af_next_update
+ 0001:00013C60       __af_next_write_init
+ 0001:00019C20       __af_nist_complete_setup
+ 0003:00001D80       __af_nist_default_filesetup
+ 0001:0001A080       __af_nist_read_init
+ 0001:0001A830       __af_nist_recognize
+ 0001:0001ACA0       __af_nist_update
+ 0001:0001AC00       __af_nist_write_init
+ 0001:0001C9A0       __af_pcm_format_ok
+ 0001:00006A40       __af_pv_double
+ 0001:00006BA0       __af_pv_getdouble
+ 0001:00006B10       __af_pv_getlong
+ 0001:00006C30       __af_pv_getptr
+ 0001:000069E0       __af_pv_long
+ 0001:00006AB0       __af_pv_pointer
+ 0001:0000FF40       __af_raw_complete_setup
+ 0003:00001A4C       __af_raw_compression_types
+ 0003:00001A20       __af_raw_default_filesetup
+ 0001:0000FCD0       __af_raw_read_init
+ 0001:000100E0       __af_raw_recognize
+ 0001:00010170       __af_raw_update
+ 0001:000100F0       __af_raw_write_init
+ 0001:000068B0       __af_realloc
+ 0001:000034E0       __af_setup_free_instruments
+ 0001:00003490       __af_setup_free_loops
+ 0001:000032E0       __af_setup_free_markers
+ 0001:000033A0       __af_setup_free_tracks
+ 0001:00008020       __af_setup_instrument_index_from_id
+ 0001:000063F0       __af_set_sample_format
+ 0001:00006870       __af_strdup
+ 0001:000024E0       __af_tracksetup_new
+ 0001:0001F480       __af_track_new
+ 0001:0001F9F0       __af_ulaw2linear
+ 0001:00006FA0       __af_unique_ids
+ 0003:00000140       __af_units
+ 0001:00014C50       __af_wave_complete_setup
+ 0003:00001BC0       __af_wave_compression_types
+ 0003:00001C80       __af_wave_default_filesetup
+ 0001:00015010       __af_wave_instparam_valid
+ 0003:00001BE0       __af_wave_inst_params
+ 0001:000140C0       __af_wave_read_init
+ 0001:000150E0       __af_wave_recognize
+ 0001:00016010       __af_wave_update
+ 0001:00016230       __af_wave_write_init
+ 0000:00000000  Imp  __alloca             (libc063.161)
+ 0000:00000000  Imp  __atfork_callback    (libc063.445)
+ 0000:00000000  Imp  __CRT_init           (libc063.167)
+ 0003:00000000       __data
+ 0003:00002180       __edata
+ 0003:000021A0       __end
+ 0000:00000000  Imp  __errno              (libc063.541)
+ 0001:0001FF40       __etext
+ 0000:00000000  Imp  __fmode_bin          (libc063.19)
+ 0003:00002120       __os2dll
+ 0000:00000000  Imp  __std_atexit         (libc063.667)
+ 0000:00000000  Imp  __std_atof           (libc063.668)
+ 0000:00000000  Imp  __std_atoi           (libc063.670)
+ 0000:00000000  Imp  __std_calloc         (libc063.680)
+ 0000:00000000  Imp  __std_ceil           (libc063.684)
+ 0000:00000000  Imp  __std_dup            (libc063.719)
+ 0000:00000000  Imp  __std_exit           (libc063.733)
+ 0000:00000000  Imp  __std_fclose         (libc063.740)
+ 0000:00000000  Imp  __std_fdopen         (libc063.742)
+ 0000:00000000  Imp  __std_floor          (libc063.754)
+ 0000:00000000  Imp  __std_fopen          (libc063.760)
+ 0000:00000000  Imp  __std_fprintf        (libc063.763)
+ 0000:00000000  Imp  __std_fputs          (libc063.766)
+ 0000:00000000  Imp  __std_fread          (libc063.767)
+ 0000:00000000  Imp  __std_free           (libc063.768)
+ 0000:00000000  Imp  __std_frexp          (libc063.770)
+ 0000:00000000  Imp  __std_fseek          (libc063.773)
+ 0000:00000000  Imp  __std_ftell          (libc063.780)
+ 0000:00000000  Imp  __std_fwrite         (libc063.785)
+ 0000:00000000  Imp  __std_ldexp          (libc063.836)
+ 0000:00000000  Imp  __std_malloc         (libc063.856)
+ 0000:00000000  Imp  __std_memcpy         (libc063.864)
+ 0000:00000000  Imp  __std_memset         (libc063.867)
+ 0000:00000000  Imp  __std_printf         (libc063.892)
+ 0000:00000000  Imp  __std_putc           (libc063.1737)
+ 0000:00000000  Imp  __std_putchar        (libc063.894)
+ 0000:00000000  Imp  __std_puts           (libc063.896)
+ 0000:00000000  Imp  __std_realloc        (libc063.907)
+ 0000:00000000  Imp  __std_snprintf       (libc063.979)
+ 0000:00000000  Imp  __std_sscanf         (libc063.994)
+ 0000:00000000  Imp  __std_strcpy         (libc063.1002)
+ 0000:00000000  Imp  __std_strdup         (libc063.1004)
+ 0000:00000000  Imp  __std_strerror       (libc063.1005)
+ 0000:00000000  Imp  __std_strlen         (libc063.1009)
+ 0000:00000000  Imp  __std_strncpy        (libc063.1013)
+ 0000:00000000  Imp  __std_strrchr        (libc063.1018)
+ 0000:00000000  Imp  __std_strstr         (libc063.1022)
+ 0000:00000000  Imp  __std_vsnprintf      (libc063.1088)
+ 0001:00000000       __text
+ 0000:00000000  Imp  __wildcard           (libc063.1163)
+ 0003:00002180       ___bss_start
+ 0003:00002144       ___crtexit1__
+ 0003:0000213C       ___crtinit1__
+ 0001:0001FE80       ___ctordtorInit
+ 0000:00000000  Imp  ___ctordtorInit1     (libc063.231)
+ 0001:0001FEAE       ___ctordtorTerm
+ 0000:00000000  Imp  ___ctordtorTerm1     (libc063.232)
+ 0003:00002128       ___CTOR_LIST__
+ 0003:00000000       ___data_start
+ 0000:00000000  Imp  ___divdi3            (libc063.125)
+ 0001:0001FE56       ___do_global_ctors
+ 0001:0001FE50       ___do_global_dtors
+ 0003:00002134       ___DTOR_LIST__
+ 0003:0000214C       ___eh_frame__
+ 0003:00002154       ___eh_init__
+ 0003:0000215C       ___eh_term__
+ 0003:0000216C       ___fork_child1__
+ 0003:00002164       ___fork_parent1__
+ 0000:00000000  Imp  ___init_app          (libc063.265)
+ 0000:00000000  Imp  ___libc_ForkRegisterModule (libc063.343)
+ 0001:0001FE68       ___main
+ 0001:0001FE8A       ___POST$__ctordtorInit
+ 0001:0001FEB8       ___POST$__ctordtorTerm
+ 0001:0001FE66       ___POST$__do_global_ctors
+ 0001:0001FE72       ___POST$__main
+ 0000:00000000  Imp  ___stderrp           (libc063.8)
+ 0000:00000000  Imp  ___stdoutp           (libc063.10)
+
+
+ Address         Publics by Value
+ 0000:00000000  Imp  __std_memset         (libc063.867)
+ 0000:00000000  Imp  __fmode_bin          (libc063.19)
+ 0000:00000000  Imp  __std_fclose         (libc063.740)
+ 0000:00000000  Imp  __std_sscanf         (libc063.994)
+ 0000:00000000  Imp  __std_malloc         (libc063.856)
+ 0000:00000000  Imp  __std_memcpy         (libc063.864)
+ 0000:00000000  Imp  __std_strstr         (libc063.1022)
+ 0000:00000000  Imp  ___init_app          (libc063.265)
+ 0000:00000000  Imp  __std_strlen         (libc063.1009)
+ 0000:00000000  Imp  __alloca             (libc063.161)
+ 0000:00000000  Abs  WEAK$ZERO
+ 0000:00000000  Imp  __errno              (libc063.541)
+ 0000:00000000  Imp  __std_strcpy         (libc063.1002)
+ 0000:00000000  Imp  __std_printf         (libc063.892)
+ 0000:00000000  Imp  __std_floor          (libc063.754)
+ 0000:00000000  Imp  __std_strdup         (libc063.1004)
+ 0000:00000000  Imp  __std_vsnprintf      (libc063.1088)
+ 0000:00000000  Imp  __std_fdopen         (libc063.742)
+ 0000:00000000  Imp  __std_frexp          (libc063.770)
+ 0000:00000000  Imp  __std_fopen          (libc063.760)
+ 0000:00000000  Imp  __std_fputs          (libc063.766)
+ 0000:00000000  Imp  __std_calloc         (libc063.680)
+ 0000:00000000  Imp  __std_atexit         (libc063.667)
+ 0000:00000000  Imp  __std_ftell          (libc063.780)
+ 0000:00000000  Imp  __std_fseek          (libc063.773)
+ 0000:00000000  Imp  ___ctordtorTerm1     (libc063.232)
+ 0000:00000000  Imp  __atfork_callback    (libc063.445)
+ 0000:00000000  Imp  __std_ldexp          (libc063.836)
+ 0000:00000000  Imp  ___ctordtorInit1     (libc063.231)
+ 0000:00000000  Imp  __std_fread          (libc063.767)
+ 0000:00000000  Imp  __std_fwrite         (libc063.785)
+ 0000:00000000  Imp  ___libc_ForkRegisterModule (libc063.343)
+ 0000:00000000  Imp  __std_strrchr        (libc063.1018)
+ 0000:00000000  Imp  __std_atoi           (libc063.670)
+ 0000:00000000  Imp  __std_strncpy        (libc063.1013)
+ 0000:00000000  Imp  __CRT_init           (libc063.167)
+ 0000:00000000  Imp  __std_free           (libc063.768)
+ 0000:00000000  Imp  __std_atof           (libc063.668)
+ 0000:00000000  Imp  __std_puts           (libc063.896)
+ 0000:00000000  Imp  __std_strerror       (libc063.1005)
+ 0000:00000000  Imp  __std_putc           (libc063.1737)
+ 0000:00000000  Imp  __wildcard           (libc063.1163)
+ 0000:00000000  Imp  ___stdoutp           (libc063.10)
+ 0000:00000000  Imp  ___stderrp           (libc063.8)
+ 0000:00000000  Imp  __std_ceil           (libc063.684)
+ 0000:00000000  Imp  ___divdi3            (libc063.125)
+ 0000:00000000  Imp  __std_realloc        (libc063.907)
+ 0000:00000000  Imp  __std_exit           (libc063.733)
+ 0000:00000000  Imp  __std_dup            (libc063.719)
+ 0000:00000000  Imp  __std_putchar        (libc063.894)
+ 0000:00000000  Imp  __std_snprintf       (libc063.979)
+ 0000:00000000  Imp  __std_fprintf        (libc063.763)
+ 0001:00000000       __text
+ 0001:00000170       _main
+ 0001:00000170       main
+ 0001:000009D0       _usageerror
+ 0001:00000B10       _copyaudiodata
+ 0001:00000EA0       _printfileinfo
+ 0001:00001290       _copyrightstring
+ 0001:000013C0       _afOpenFD
+ 0001:000014B0       _afOpenNamedFD
+ 0001:00001590       _afOpenFile
+ 0001:00001C70       _afSyncFile
+ 0001:000020F0       __af_identify
+ 0001:00002190       _afIdentifyFD
+ 0001:00002280       _afIdentifyNamedFD
+ 0001:000023A0       _afOpenVirtualFile
+ 0001:00002460       _afCloseFile
+ 0001:000024E0       __af_tracksetup_new
+ 0001:00002670       __af_filesetup_copy
+ 0001:00002B30       __af_filesetup_make_handle
+ 0001:00003010       __af_instsetup_new
+ 0001:000030F0       _afNewFileSetup
+ 0001:000032E0       __af_setup_free_markers
+ 0001:000033A0       __af_setup_free_tracks
+ 0001:00003490       __af_setup_free_loops
+ 0001:000034E0       __af_setup_free_instruments
+ 0001:00003550       _afFreeFileSetup
+ 0001:00003670       _afInitFileFormat
+ 0001:00003720       _afInitChannels
+ 0001:000037A0       _afInitSampleFormat
+ 0001:00003820       _afInitByteOrder
+ 0001:000038C0       _afInitRate
+ 0001:00003960       _afInitDataOffset
+ 0001:00003A00       _afInitFrameCount
+ 0001:00003A90       _afGetDataOffset
+ 0001:00003AF0       _afGetTrackBytes
+ 0001:00003B40       _afGetFrameSize
+ 0001:00003BB0       _afGetVirtualFrameSize
+ 0001:00003C20       _afSeekFrame
+ 0001:00003D80       _afTellFrame
+ 0001:00003E40       _afSetVirtualByteOrder
+ 0001:00003ED0       _afGetByteOrder
+ 0001:00003F20       _afGetVirtualByteOrder
+ 0001:00003F70       _afGetFrameCount
+ 0001:00004000       _afGetRate
+ 0001:00004030       _afGetChannels
+ 0001:00004060       _afGetSampleFormat
+ 0001:000040A0       _afGetVirtualSampleFormat
+ 0001:000040E0       _afSetVirtualSampleFormat
+ 0001:00004150       _afGetFileFormat
+ 0001:000041B0       _afSetVirtualChannels
+ 0001:00004230       _afGetVirtualRate
+ 0001:00004280       _afSetVirtualRate
+ 0001:00004310       _afSetChannelMatrix
+ 0001:000043B0       _afGetVirtualChannels
+ 0001:00004410       _afWriteFrames
+ 0001:00004650       _afReadFrames
+ 0001:00004A70       __af_compression_index_from_id
+ 0001:00004AB0       _afGetCompression
+ 0001:00004B00       _afInitCompression
+ 0001:00004BA0       _afInitMiscIDs
+ 0001:00004C50       _afGetMiscIDs
+ 0001:00004CD0       _afInitMiscType
+ 0001:00004D80       _afGetMiscType
+ 0001:00004E10       _afInitMiscSize
+ 0001:00004EC0       _afGetMiscSize
+ 0001:00004F90       _afWriteMisc
+ 0001:00005100       _afReadMisc
+ 0001:00005280       _afSeekMisc
+ 0001:00005380       __afQueryFileFormat
+ 0001:000055F0       __afQueryInstrumentParameter
+ 0001:00005880       __afQueryCompression
+ 0001:00005A50       _afQuery
+ 0001:00005C10       _afQueryLong
+ 0001:00005CA0       _afQueryDouble
+ 0001:00005D20       _afQueryPointer
+ 0001:00005DB0       __afQueryLoop
+ 0001:00005E10       __afQueryInstrument
+ 0001:00005E80       __afQueryMiscellaneous
+ 0001:00005EB0       __afQueryMarker
+ 0001:00005F20       __af_error
+ 0001:00005F70       _afSetErrorHandler
+ 0001:00006020       _af_virtual_file_new
+ 0001:00006040       _af_virtual_file_destroy
+ 0001:00006060       _af_fread
+ 0001:000060C0       _af_fwrite
+ 0001:00006120       _af_fclose
+ 0001:00006150       _af_flength
+ 0001:00006170       _af_fseek
+ 0001:000061C0       _af_ftell
+ 0001:000061E0       _af_virtual_file_new_for_file
+ 0001:000063F0       __af_set_sample_format
+ 0001:00006620       __af_filesetup_ok
+ 0001:000066A0       __af_filehandle_can_read
+ 0001:00006710       __af_filehandle_can_write
+ 0001:00006770       __af_filehandle_ok
+ 0001:00006810       __af_malloc
+ 0001:00006870       __af_strdup
+ 0001:000068B0       __af_realloc
+ 0001:00006960       __af_calloc
+ 0001:000069E0       __af_pv_long
+ 0001:00006A40       __af_pv_double
+ 0001:00006AB0       __af_pv_pointer
+ 0001:00006B10       __af_pv_getlong
+ 0001:00006BA0       __af_pv_getdouble
+ 0001:00006C30       __af_pv_getptr
+ 0001:00006CD0       __af_filesetup_get_tracksetup
+ 0001:00006D30       __af_filehandle_get_track
+ 0001:00006D90       __af_format_sample_size_uncompressed
+ 0001:00006DF0       __af_format_sample_size
+ 0001:00006E90       __af_format_frame_size_uncompressed
+ 0001:00006EF0       __af_format_frame_size
+ 0001:00006FA0       __af_unique_ids
+ 0001:00007010       _af_read_uint32_be
+ 0001:00007060       _af_read_uint32_le
+ 0001:000070B0       _af_read_uint16_be
+ 0001:00007100       _af_read_uint16_le
+ 0001:00007150       _af_write_uint32_be
+ 0001:000071A0       _af_write_uint32_le
+ 0001:000071E0       _af_write_uint16_be
+ 0001:00007230       _af_write_uint16_le
+ 0001:00007280       _AUpvnew
+ 0001:00007320       _AUpvsetval
+ 0001:000073B0       _AUpvgetmaxitems
+ 0001:000073D0       _AUpvfree
+ 0001:00007420       _AUpvsetparam
+ 0001:00007480       _AUpvsetvaltype
+ 0001:000074E0       _AUpvgetparam
+ 0001:00007540       _AUpvgetvaltype
+ 0001:000075A0       _AUpvgetval
+ 0001:00007970       __af_instparam_set
+ 0001:00007B40       __af_instparam_get
+ 0001:00007CE0       __af_instparam_index_from_id
+ 0001:00007D70       __af_handle_instrument_index_from_id
+ 0001:00007DD0       _afInitInstIDs
+ 0001:00007E60       _afGetInstIDs
+ 0001:00007EB0       _afSetInstParams
+ 0001:00007EC0       _afSetInstParamLong
+ 0001:00007F50       _afGetInstParams
+ 0001:00007F80       _afGetInstParamLong
+ 0001:00008020       __af_setup_instrument_index_from_id
+ 0001:00008080       _afInitMarkIDs
+ 0001:00008220       _afInitMarkName
+ 0001:00008350       _afInitMarkComment
+ 0001:00008480       __af_marker_find_by_id
+ 0001:000084F0       _afGetMarkName
+ 0001:000085A0       _afGetMarkComment
+ 0001:00008660       _afSetMarkPosition
+ 0001:00008750       _afGetMarkIDs
+ 0001:000087D0       _afGetMarkPosition
+ 0001:000088A0       __af_marker_new
+ 0001:00008BF0       __AFsetupmodules
+ 0001:000092D0       __AFnewmodinst
+ 0001:00009310       __AFfreemodspec
+ 0001:00009340       __AFpull
+ 0001:00009380       __AFsimplemodrun_pull
+ 0001:000093D0       __AFpush
+ 0001:00009400       __AFpushat
+ 0001:000094B0       __AFsimplemodrun_push
+ 0001:00009500       __AFsyncmodules
+ 0001:000095C0       __AFinitmodules
+ 0001:000096E0       __AFfreemodules
+ 0001:0000F950       _afInitPCMMapping
+ 0001:0000F9C0       _afSetVirtualPCMMapping
+ 0001:0000FA40       _afSetTrackPCMMapping
+ 0001:0000FAC0       _afGetPCMMapping
+ 0001:0000FB40       _afGetVirtualPCMMapping
+ 0001:0000FBC0       __af_byteswap_int16
+ 0001:0000FBE0       __af_byteswap_int32
+ 0001:0000FC10       __af_byteswap_float32
+ 0001:0000FCD0       __af_raw_read_init
+ 0001:0000FF40       __af_raw_complete_setup
+ 0001:000100E0       __af_raw_recognize
+ 0001:000100F0       __af_raw_write_init
+ 0001:00010170       __af_raw_update
+ 0001:000102A0       __af_aiff_read_init
+ 0001:00010B80       __af_aiff_complete_setup
+ 0001:00010D90       __af_aiff_instparam_valid
+ 0001:00010E60       __af_aiff_recognize
+ 0001:00010F20       __af_aifc_recognize
+ 0001:00010FE0       __af_aifc_get_version
+ 0001:000119E0       __af_aiff_write_init
+ 0001:00011EB0       __af_aiff_update
+ 0001:00013110       __af_next_read_init
+ 0001:000136C0       __af_next_complete_setup
+ 0001:000138A0       __af_next_recognize
+ 0001:00013940       __af_next_update
+ 0001:00013C60       __af_next_write_init
+ 0001:000140C0       __af_wave_read_init
+ 0001:00014C50       __af_wave_complete_setup
+ 0001:00015010       __af_wave_instparam_valid
+ 0001:000150E0       __af_wave_recognize
+ 0001:00015FB0       _waveinfo_new
+ 0001:00016010       __af_wave_update
+ 0001:00016230       __af_wave_write_init
+ 0001:00017070       __af_ircam_vax_magic
+ 0001:00017074       __af_ircam_sun_magic
+ 0001:00017078       __af_ircam_mips_magic
+ 0001:0001707C       __af_ircam_next_magic
+ 0001:00017360       __af_ircam_complete_setup
+ 0001:00017620       __af_ircam_read_init
+ 0001:000179A0       __af_ircam_recognize
+ 0001:00017A70       __af_ircam_write_init
+ 0001:00017C30       __af_ircam_update
+ 0001:00017D20       __af_avr_read_init
+ 0001:00018350       __af_avr_complete_setup
+ 0001:000184B0       __af_avr_recognize
+ 0001:00018550       __af_avr_write_init
+ 0001:00018870       __af_avr_update
+ 0001:00018940       __af_iff_read_init
+ 0001:00018FF0       __af_iff_complete_setup
+ 0001:00019170       __af_iff_recognize
+ 0001:00019240       __af_iff_write_init
+ 0001:00019440       __af_iff_update
+ 0001:00019C20       __af_nist_complete_setup
+ 0001:0001A080       __af_nist_read_init
+ 0001:0001A830       __af_nist_recognize
+ 0001:0001A990       _WriteNISTHeader
+ 0001:0001AC00       __af_nist_write_init
+ 0001:0001ACA0       __af_nist_update
+ 0001:0001AD80       __af_g711_format_ok
+ 0001:0001AE00       __AFg711initcompress
+ 0001:0001AE90       __AFg711initdecompress
+ 0001:0001B770       __af_ima_adpcm_format_ok
+ 0001:0001B830       __af_ima_adpcm_init_decompress
+ 0001:0001BE10       __af_ms_adpcm_init_decompress
+ 0001:0001C0A0       __af_ms_adpcm_format_ok
+ 0001:0001C9A0       __af_pcm_format_ok
+ 0001:0001C9B0       __AFpcminitcompress
+ 0001:0001CA60       __AFpcminitdecompress
+ 0001:0001D0E0       __af_initfloatrebufferv2f
+ 0001:0001D180       __af_initfloatrebufferf2v
+ 0001:0001D220       __af_initint2rebufferv2f
+ 0001:0001D2C0       __af_initint2rebufferf2v
+ 0001:0001E3D0       _afInitLoopIDs
+ 0001:0001E4B0       _afGetLoopIDs
+ 0001:0001E590       __af_handle_loop_index_from_id
+ 0001:0001E620       _afSetLoopMode
+ 0001:0001E740       _afGetLoopMode
+ 0001:0001E840       _afSetLoopCount
+ 0001:0001E960       _afGetLoopCount
+ 0001:0001EA40       _afSetLoopStart
+ 0001:0001EB20       _afGetLoopStart
+ 0001:0001EC30       _afSetLoopStartFrame
+ 0001:0001ED70       _afGetLoopStartFrame
+ 0001:0001EE70       _afSetLoopTrack
+ 0001:0001EF50       _afGetLoopTrack
+ 0001:0001F030       _afSetLoopEnd
+ 0001:0001F110       _afGetLoopEnd
+ 0001:0001F230       _afSetLoopEndFrame
+ 0001:0001F370       _afGetLoopEndFrame
+ 0001:0001F480       __af_track_new
+ 0001:0001F5D0       _afInitTrackIDs
+ 0001:0001F5E0       _afGetTrackIDs
+ 0001:0001F610       __af_convert_to_ieee_extended
+ 0001:0001F7A0       __af_convert_from_ieee_extended
+ 0001:0001F8B0       __af_linear2alaw
+ 0001:0001F930       __af_alaw2linear
+ 0001:0001F980       __af_linear2ulaw
+ 0001:0001F9F0       __af_ulaw2linear
+ 0001:0001FBE0       __af_adpcm_coder
+ 0001:0001FD30       __af_adpcm_decoder
+ 0001:0001FE50       ___do_global_dtors
+ 0001:0001FE56       ___do_global_ctors
+ 0001:0001FE66       ___POST$__do_global_ctors
+ 0001:0001FE68       ___main
+ 0001:0001FE72       ___POST$__main
+ 0001:0001FE80       ___ctordtorInit
+ 0001:0001FE8A       ___POST$__ctordtorInit
+ 0001:0001FEAE       ___ctordtorTerm
+ 0001:0001FEB8       ___POST$__ctordtorTerm
+ 0001:0001FF40       __etext
+ 0001:0001FF40       _etext
+ 0003:00000000       ___data_start
+ 0003:00000000       __data
+ 0003:00000050       __af_default_file_setup
+ 0003:0000007C       __af_default_instrumentsetup
+ 0003:00000090       __af_default_tracksetup
+ 0003:00000140       __af_units
+ 0003:00000640       __af_compression
+ 0003:000018A0       __af_default_signed_integer_pcm_mappings
+ 0003:00001940       __af_default_unsigned_integer_pcm_mappings
+ 0003:000019E0       __af_default_float_pcm_mapping
+ 0003:00001A00       __af_default_double_pcm_mapping
+ 0003:00001A20       __af_raw_default_filesetup
+ 0003:00001A4C       __af_raw_compression_types
+ 0003:00001A60       __af_aiff_inst_params
+ 0003:00001B14       __af_aiffc_compression_types
+ 0003:00001B20       __af_aiff_default_filesetup
+ 0003:00001B60       __af_next_compression_types
+ 0003:00001B80       __af_next_default_filesetup
+ 0003:00001BC0       __af_wave_compression_types
+ 0003:00001BE0       __af_wave_inst_params
+ 0003:00001C80       __af_wave_default_filesetup
+ 0003:00001CC0       __af_ircam_default_filesetup
+ 0003:00001D00       __af_avr_default_filesetup
+ 0003:00001D40       __af_iff_default_filesetup
+ 0003:00001D80       __af_nist_default_filesetup
+ 0003:00002120       __os2dll
+ 0003:00002128       ___CTOR_LIST__
+ 0003:00002134       ___DTOR_LIST__
+ 0003:0000213C       ___crtinit1__
+ 0003:00002144       ___crtexit1__
+ 0003:0000214C       ___eh_frame__
+ 0003:00002154       ___eh_init__
+ 0003:0000215C       ___eh_term__
+ 0003:00002164       ___fork_parent1__
+ 0003:0000216C       ___fork_child1__
+ 0003:00002180       __edata
+ 0003:00002180       ___bss_start
+ 0003:00002180       _edata
+ 0003:000021A0       __end
+ 0003:000021A0       _end
+
+Program entry point at 0001:00000000

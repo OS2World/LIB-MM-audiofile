@@ -1,0 +1,27 @@
+This is the OS/2 port of libaudiofile 0.2.6, built with GCC 3.3.5
+and the Build Environment from Paul Smedley.
+
+libaudiofile is used by some programs from the GNU community, 
+especially by FUSE, an SDL ZX Spectrum Emulator (ported also by
+Paul some time ago).
+
+I decided to make it available to the OS/2 community.
+
+For informations on libaudiofile please check the documentation
+included into this package.
+
+Please note that, to use this library with other environments (such as
+older releases of GCC), you must recompile it, so you must issue
+the commands
+
+make distclean
+sh ./configure
+make
+make install
+
+to update the library and install it into your /usr/localxxx/lib directory.
+
+Have fun
+Mentore Siesto
+Pisa, Italy
+mentore.siesto@alice.it

@@ -1,0 +1,42 @@
+error.lo error.o: error.c ../config.h U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  U:/USR/lib/gcc-lib/i386-pc-os2-emx/3.3.5/include/stdarg.h \
+  U:/USR/include/assert.h audiofile.h U:/USR/include/sys/types.h \
+  U:/USR/include/machine/endian.h U:/USR/include/386/endian.h \
+  U:/USR/include/sys/select.h U:/USR/include/sys/_sigset.h aupvlist.h
+
+../config.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/lib/gcc-lib/i386-pc-os2-emx/3.3.5/include/stdarg.h:
+
+U:/USR/include/assert.h:
+
+audiofile.h:
+
+U:/USR/include/sys/types.h:
+
+U:/USR/include/machine/endian.h:
+
+U:/USR/include/386/endian.h:
+
+U:/USR/include/sys/select.h:
+
+U:/USR/include/sys/_sigset.h:
+
+aupvlist.h:

@@ -1,0 +1,94 @@
+rebuffer.lo rebuffer.o: rebuffer.c ../../config.h U:/USR/include/stdio.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  U:/USR/include/stdlib.h U:/USR/include/sys/_null.h \
+  U:/USR/include/malloc.h U:/USR/include/string.h \
+  U:/USR/include/strings.h U:/USR/include/math.h \
+  U:/USR/include/machine/_limits.h U:/USR/include/386/_limits.h \
+  U:/USR/include/assert.h ../audiofile.h U:/USR/include/sys/types.h \
+  U:/USR/include/machine/endian.h U:/USR/include/386/endian.h \
+  U:/USR/include/sys/select.h U:/USR/include/sys/_sigset.h ../aupvlist.h \
+  ../afinternal.h ../af_vfs.h ../error.h ../modules.h \
+  U:/USR/include/inttypes.h U:/USR/include/machine/_inttypes.h \
+  U:/USR/include/386/_inttypes.h U:/USR/include/sys/stdint.h \
+  U:/USR/include/machine/_stdint.h U:/USR/include/386/_stdint.h pcm.h \
+  ../compression.h ../util.h ../units.h rebuffer.template
+
+../../config.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/include/stdlib.h:
+
+U:/USR/include/sys/_null.h:
+
+U:/USR/include/malloc.h:
+
+U:/USR/include/string.h:
+
+U:/USR/include/strings.h:
+
+U:/USR/include/math.h:
+
+U:/USR/include/machine/_limits.h:
+
+U:/USR/include/386/_limits.h:
+
+U:/USR/include/assert.h:
+
+../audiofile.h:
+
+U:/USR/include/sys/types.h:
+
+U:/USR/include/machine/endian.h:
+
+U:/USR/include/386/endian.h:
+
+U:/USR/include/sys/select.h:
+
+U:/USR/include/sys/_sigset.h:
+
+../aupvlist.h:
+
+../afinternal.h:
+
+../af_vfs.h:
+
+../error.h:
+
+../modules.h:
+
+U:/USR/include/inttypes.h:
+
+U:/USR/include/machine/_inttypes.h:
+
+U:/USR/include/386/_inttypes.h:
+
+U:/USR/include/sys/stdint.h:
+
+U:/USR/include/machine/_stdint.h:
+
+U:/USR/include/386/_stdint.h:
+
+pcm.h:
+
+../compression.h:
+
+../util.h:
+
+../units.h:
+
+rebuffer.template:

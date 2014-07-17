@@ -1,0 +1,50 @@
+loop.lo loop.o: loop.c ../config.h audiofile.h U:/USR/include/sys/types.h \
+  U:/USR/include/sys/cdefs.h U:/USR/include/sys/gnu/cdefs.h \
+  U:/USR/include/features.h U:/USR/include/machine/endian.h \
+  U:/USR/include/386/endian.h U:/USR/include/sys/_types.h \
+  U:/USR/include/machine/_types.h U:/USR/include/386/_types.h \
+  U:/USR/include/sys/select.h U:/USR/include/sys/_sigset.h aupvlist.h \
+  afinternal.h U:/USR/include/stdio.h af_vfs.h error.h util.h setup.h \
+  instrument.h
+
+../config.h:
+
+audiofile.h:
+
+U:/USR/include/sys/types.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/machine/endian.h:
+
+U:/USR/include/386/endian.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/include/sys/select.h:
+
+U:/USR/include/sys/_sigset.h:
+
+aupvlist.h:
+
+afinternal.h:
+
+U:/USR/include/stdio.h:
+
+af_vfs.h:
+
+error.h:
+
+util.h:
+
+setup.h:
+
+instrument.h:

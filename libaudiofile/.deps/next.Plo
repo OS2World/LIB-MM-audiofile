@@ -1,0 +1,84 @@
+next.lo next.o: next.c ../config.h U:/USR/include/assert.h \
+  U:/USR/include/sys/types.h U:/USR/include/sys/cdefs.h \
+  U:/USR/include/sys/gnu/cdefs.h U:/USR/include/features.h \
+  U:/USR/include/machine/endian.h U:/USR/include/386/endian.h \
+  U:/USR/include/sys/_types.h U:/USR/include/machine/_types.h \
+  U:/USR/include/386/_types.h U:/USR/include/sys/select.h \
+  U:/USR/include/sys/_sigset.h U:/USR/include/stdio.h \
+  U:/USR/include/stdlib.h U:/USR/include/sys/_null.h \
+  U:/USR/include/malloc.h U:/USR/include/string.h \
+  U:/USR/include/strings.h U:/USR/include/inttypes.h \
+  U:/USR/include/machine/_inttypes.h U:/USR/include/386/_inttypes.h \
+  U:/USR/include/sys/stdint.h U:/USR/include/machine/_stdint.h \
+  U:/USR/include/386/_stdint.h next.h afinternal.h audiofile.h aupvlist.h \
+  af_vfs.h error.h track.h util.h setup.h byteorder.h
+
+../config.h:
+
+U:/USR/include/assert.h:
+
+U:/USR/include/sys/types.h:
+
+U:/USR/include/sys/cdefs.h:
+
+U:/USR/include/sys/gnu/cdefs.h:
+
+U:/USR/include/features.h:
+
+U:/USR/include/machine/endian.h:
+
+U:/USR/include/386/endian.h:
+
+U:/USR/include/sys/_types.h:
+
+U:/USR/include/machine/_types.h:
+
+U:/USR/include/386/_types.h:
+
+U:/USR/include/sys/select.h:
+
+U:/USR/include/sys/_sigset.h:
+
+U:/USR/include/stdio.h:
+
+U:/USR/include/stdlib.h:
+
+U:/USR/include/sys/_null.h:
+
+U:/USR/include/malloc.h:
+
+U:/USR/include/string.h:
+
+U:/USR/include/strings.h:
+
+U:/USR/include/inttypes.h:
+
+U:/USR/include/machine/_inttypes.h:
+
+U:/USR/include/386/_inttypes.h:
+
+U:/USR/include/sys/stdint.h:
+
+U:/USR/include/machine/_stdint.h:
+
+U:/USR/include/386/_stdint.h:
+
+next.h:
+
+afinternal.h:
+
+audiofile.h:
+
+aupvlist.h:
+
+af_vfs.h:
+
+error.h:
+
+track.h:
+
+util.h:
+
+setup.h:
+
+byteorder.h:
